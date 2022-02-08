@@ -14,6 +14,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.10")
+    implementation("org.jetbrains.kotlinx.spark:kotlin-spark-api-3.0:1.0.2")
+    compileOnly("org.apache.spark:spark-sql_2.13:3.2.1")
 }
 
 tasks.test {
