@@ -1,4 +1,6 @@
-import org.jetbrains.kotlinx.spark.api.*
+/*
+import kotlin.api.*
+
 class MapAndListOperation {
 
     fun app(spark: SparkSession){
@@ -14,4 +16,4 @@ class MapAndListOperation {
                 .show()
         }
     }
-}
+}*/
